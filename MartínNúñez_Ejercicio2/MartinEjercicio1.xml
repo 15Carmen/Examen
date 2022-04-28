@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Alumnos SYSTEM "MartinEjercicio1.dtd">
+
+<Alumnos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xs:noNamespaceSchemaLocation="MartinEjercicio1.xsd">
+    <alumno>
+        <nombre>Carmen</nombre>
+        <apellidos>Martín Núñez</apellidos>
+        <telefono>123456789</telefono>
+        <dni>12345678G</dni>
+        <email>cmnbohemia@gmail.com</email>
+        <ciclo>
+            <DAM/>
+        </ciclo>
+        <modulos>
+            <curso>
+                <Primero/>
+            </curso>
+            <modulo>Lenguaje de Marcas</modulo>
+            <horas>96</horas>
+        </modulos>
+        <modulos>
+            <curso>
+                <Primero/>
+            </curso>
+            <modulo>Entornos de desarrollo</modulo>
+            <horas>96</horas>
+        </modulos>
+        <modulos>
+            <curso>
+                <Primero/>
+            </curso>
+            <modulo>FOL</modulo>
+            <horas>80</horas>
+        </modulos>
+    </alumno>
+
+    <alumno>
+        <nombre>Isabel</nombre>
+        <apellidos>Katarina Loerzer</apellidos>
+        <telefono>647104845</telefono>
+        <dni>78945612L</dni>
+        <email>ikloerzer@gmail.com</email>
+        <ciclo>
+            <DAW/>
+        </ciclo>
+        <modulos>
+            <curso>
+                <Segundo/>
+            </curso>
+            <modulo>Sistemas Informáticos</modulo>
+            <horas>96</horas>
+        </modulos>
+        <modulos>
+            <curso>
+                <Primero/>
+            </curso>
+            <modulo>Base de datos</modulo>
+            <horas>96</horas>
+        </modulos>
+        <modulos>
+            <curso>
+                <Primero/>
+            </curso>
+            <modulo>Programación</modulo>
+            <horas>115</horas>
+        </modulos>
+    </alumno>
+</Alumnos>
+
+<!--
+Ejercicio 2
+
+· Los DTD pueden estar contenidos dentro del XML o estar en un archivo separado,
+ mientras que los XSD siempre deben estar en un documento aparte.
+
+· Los esquemas XML son más difíciles de entender, ya que contienen mucha más funcionalidad
+e información que los DTD.
+
+· Siguiendo esta línea de información, los XSD definen los tipos de datos para elementos,
+atributos y restricciones, mientras que los DTD no admiten tipos de datos.
+
+· Los XSD se escriben en XML, mientras que los DTD se derivan de la sintaxis SGML
+-->

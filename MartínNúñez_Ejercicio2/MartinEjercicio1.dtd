@@ -1,0 +1,16 @@
+<!ELEMENT Alumnos (alumno)+>
+    <!ELEMENT alumno (nombre, apellidos,telefono, dni, email, ciclo, modulos+)+>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT ciclo (DAM|DAW)>
+        <!ELEMENT DAM (#PCDATA)>
+        <!ELEMENT DAW (#PCDATA)>
+    <!ELEMENT modulos (curso, modulo, horas)+>
+        <!ELEMENT curso (#PCDATA)>
+        <!ELEMENT modulo (#PCDATA)>
+        <!ELEMENT horas (#PCDATA)>
+
+
